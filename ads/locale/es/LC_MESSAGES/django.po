@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 14:16-0400\n"
+"PO-Revision-Date: 2020-07-21 14:17-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: admin.py:112
+msgid "Download selected Ad Clicks"
+msgstr "Descargar clics de anuncios seleccionados"
+
+#: admin.py:146
+#| msgid "Ad Impressions"
+msgid "Download selected Ad Impressions"
+msgstr "Descargar impresiones de anuncios seleccionados"
+
+#: apps.py:10
+msgid "Ads Management System"
+msgstr "Sistema de gestión de publicidades"
+
+#: conf.py:18
+msgid "Header"
+msgstr "Encabezado"
+
+#: conf.py:30
+msgid "Content"
+msgstr "Contenido"
+
+#: conf.py:42
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: conf.py:56
+msgid "Extra small devices"
+msgstr "Dispositivos extra pequeños"
+
+#: conf.py:57
+msgid "Small devices"
+msgstr "Dispositivos pequeños"
+
+#: conf.py:58
+msgid "Medium devices (Tablets)"
+msgstr "Dispositivos medianos (Tabletas)"
+
+#: conf.py:59
+msgid "Large devices (Desktops)"
+msgstr "Dispositivos grandes (Computadoras de escritorio)"
+
+#: conf.py:60
+msgid "Extra large devices (Large Desktops)"
+msgstr "Dispositivos extra grandes (Computadoras de escritorio grandes)"
+
+#: forms.py:24
+#, python-format
+msgid "Image size must be %(size)s"
+msgstr "El tamaño de la imagen debe ser %(size)s"
+
+#: models.py:17
+msgid "Company Name"
+msgstr "Nombre de la compañía"
+
+#: models.py:18
+msgid "Company Site"
+msgstr "Sitio de la compañía"
+
+#: models.py:21 models.py:43 models.py:95
+msgid "Created By"
+msgstr "Creado por"
+
+#: models.py:24
+msgid "Advertiser"
+msgstr "Anunciante"
+
+#: models.py:25
+msgid "Advertisers"
+msgstr "Anunciantes"
+
+#: models.py:38 models.py:64
+msgid "Title"
+msgstr "Título"
+
+#: models.py:40
+msgid "Description"
+msgstr "Descripción"
+
+#: models.py:46 models.py:79
+msgid "Category"
+msgstr "Categoría"
+
+#: models.py:47
+msgid "Categories"
+msgstr "Categorías"
+
+#: models.py:65
+msgid "Advertised URL"
+msgstr "URL anunciada"
+
+#: models.py:68
+msgid "Start showing"
+msgstr "Empiece a mostrar"
+
+#: models.py:71
+msgid "Stop showing"
+msgstr "Dejar de mostrar"
+
+#: models.py:76
+msgid "Ad Provider"
+msgstr "Proveedor de anuncio"
+
+#: models.py:81
+msgid "Zone"
+msgstr "Zona"
+
+#: models.py:83
+msgid "Weight"
+msgstr "Peso"
+
+#: models.py:84
+msgid ""
+"Weight of the ad relative to other ads in the same zone.<br />Ad with higher "
+"weight will be displayed more frequently."
+msgstr ""
+"Peso del anuncio en relación con otros anuncios en la misma zona.<br />El "
+"anuncio con mayor peso se mostrará con mayor frecuencia."
+
+#: models.py:100 models.py:113 models.py:135 models.py:161
+msgid "Ad"
+msgstr "Publicidad"
+
+#: models.py:101
+msgid "Ads"
+msgstr "Publicidades"
+
+#: models.py:116
+msgid "Device"
+msgstr "Dispositivo"
+
+#: models.py:117
+msgid "Image"
+msgstr "Imagen"
+
+#: models.py:138 models.py:164
+msgid "When"
+msgstr "Cuando"
+
+#: models.py:140 models.py:166
+msgid "Source IP Address"
+msgstr "Dirección IP de origen"
+
+#: models.py:142 models.py:168
+msgid "Source Session ID"
+msgstr "ID de sesión de origen"
+
+#: models.py:146
+msgid "Ad Impression"
+msgstr "Impresión de anuncio"
+
+#: models.py:147
+msgid "Ad Impressions"
+msgstr "Impresiones de anuncios"
+
+#: models.py:172
+msgid "Ad Click"
+msgstr "Clic de anuncio"
+
+#: models.py:173
+msgid "Ad Clicks"
+msgstr "Clics de anuncios"
