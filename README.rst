@@ -12,15 +12,9 @@ Installation:
 
 Install the package using pip:
 
-.. code-block:: python
+.. code-block:: console
 
   pip install django-ads
-
-Run django Migration to add tables to your database:
-
-.. code-block:: python
-
-  python manage.py migrate ads
 
 Configuration:
 --------------
@@ -47,7 +41,7 @@ Make sure ``django.template.context_processors.request`` is included in ``contex
   ]
 
 
-Make sure ``django.contrib.sessions.middleware.SessionMiddleware`` is included to ``MIDDLEWARE_CLASSES/MIDDLEWARE``
+Make sure ``django.contrib.sessions.middleware.SessionMiddleware`` is included to ``MIDDLEWARE_CLASSES``/``MIDDLEWARE``
 
 Prior to Django 1.10
 
@@ -83,7 +77,7 @@ Add the following to your settings file:
                 'sm': '800x90',
                 'md': '800x90',
                 'lg': '800x90',
-                'xl': '800x90'                
+                'xl': '800x90'
             },
             'google_adsense_slot': None,  # 'xxxxxxxxx',
             'google_adsense_format': None,  # 'auto'
@@ -95,7 +89,7 @@ Add the following to your settings file:
                 'sm': '800x90',
                 'md': '800x90',
                 'lg': '800x90',
-                'xl': '800x90'                
+                'xl': '800x90'
             },
             'google_adsense_slot': None,  # 'xxxxxxxxx',
             'google_adsense_format': None,  # 'auto'
@@ -152,6 +146,15 @@ Create a URL pattern in your urls.py:
       url(r'^ads/', include('ads.urls')),
       ...
   ]
+
+Run Migration:
+---------------
+
+Run django Migration to add tables to your database:
+
+.. code-block:: python
+
+  python manage.py migrate ads
 
 Usage:
 ------
