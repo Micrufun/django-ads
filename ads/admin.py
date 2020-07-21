@@ -5,6 +5,7 @@ import csv
 from django import forms
 from django.contrib import admin
 from django.http import HttpResponse
+from django.utils.translation import gettext_lazy as _
 
 from ads.forms import AdImageInlineForm
 from ads.models import *
@@ -108,7 +109,7 @@ class ClickAdmin(admin.ModelAdmin):
                              unicode(click.ad.advertiser.company_name).encode("utf-8"),
                              unicode(click.ad.zone).encode("utf-8")))
         return response
-    download_clicks.short_description = "Download selected Ad Clicks"
+    download_clicks.short_description = _("Download selected Ad Clicks")
 
 
 class ImpressionAdmin(admin.ModelAdmin):
@@ -142,7 +143,7 @@ class ImpressionAdmin(admin.ModelAdmin):
                              unicode(impression.ad.advertiser.company_name).encode("utf-8"),
                              unicode(impression.ad.zone).encode("utf-8")))
         return response
-    download_impressions.short_description = "Download selected Ad Impressions"
+    download_impressions.short_description = _("Download selected Ad Impressions")
 
 
 admin.site.register(Advertiser, AdvertiserAdmin)
