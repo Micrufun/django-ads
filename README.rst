@@ -7,6 +7,7 @@ Each Ad has a **title**, a **URL** to redirect to, an **image** to be displayed 
 
 Each time an Ad is displayed an **Impression** will be saved to the database about it with session id and source ip address, and each time it will be clicked a **click** will be saved in the database about it with the same info.
 
+
 Installation:
 -------------
 
@@ -15,6 +16,7 @@ Install the package using pip:
 .. code-block:: console
 
   pip install django-ads
+
 
 Configuration:
 --------------
@@ -41,23 +43,23 @@ Make sure ``django.template.context_processors.request`` is included in ``contex
   ]
 
 
-Make sure ``django.contrib.sessions.middleware.SessionMiddleware`` is included to ``MIDDLEWARE_CLASSES``/``MIDDLEWARE``
-
-Prior to Django 1.10
-
-.. code-block:: python
-
-  MIDDLEWARE_CLASSES = [
-      ...
-      'django.contrib.sessions.middleware.SessionMiddleware',
-      ...
-  ]
-
+Make sure ``django.contrib.sessions.middleware.SessionMiddleware`` is included to ``MIDDLEWARE`` in
 Django 1.10 (new style)
 
 .. code-block:: python
 
   MIDDLEWARE = [
+      ...
+      'django.contrib.sessions.middleware.SessionMiddleware',
+      ...
+  ]
+
+Make sure ``django.contrib.sessions.middleware.SessionMiddleware`` is included to ``MIDDLEWARE_CLASSES``
+prior to Django 1.10
+
+.. code-block:: python
+
+  MIDDLEWARE_CLASSES = [
       ...
       'django.contrib.sessions.middleware.SessionMiddleware',
       ...
@@ -135,7 +137,7 @@ This app has one template: ``ads/tags/render_ads_zone.html``. It makes some assu
 
 If either of the above assumptions will cause a problem in your project, feel free to override the template.
 
-Create a URL pattern in your urls.py:
+Create a URL pattern in your ``urls.py``:
 
 .. code-block:: python
 
@@ -147,6 +149,7 @@ Create a URL pattern in your urls.py:
       ...
   ]
 
+
 Run Migration:
 ---------------
 
@@ -155,6 +158,7 @@ Run django Migration to add tables to your database:
 .. code-block:: python
 
   python manage.py migrate ads
+
 
 Usage:
 ------
@@ -179,6 +183,7 @@ use ``get_ads_count`` in your template to check if any zone has active ads.
 
   {% get_ads_count 'zone1' as ads_count %}
   {{ get_ads_count 'zone1,zone2,zone3' as ads_count %}
+
 
 Changelog:
 ----------
