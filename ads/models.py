@@ -123,6 +123,10 @@ class AdImage(models.Model):
             get(self.device, None)
         return size or settings.ADS_DEFAULT_AD_SIZE
 
+    class Meta:
+        verbose_name = _('Ad Image')
+        verbose_name_plural = _('Ad Images')
+
     def __str__(self):
         return self.get_device_display()
 
