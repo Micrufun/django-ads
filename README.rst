@@ -19,7 +19,7 @@ Install the package using pip:
 Configuration:
 --------------
 
-Add ``'ads'`` to your ``INSTALLED_APPS``
+Add ``'ads.apps.AdsConfig',`` to your ``INSTALLED_APPS``
 
 Make sure ``django.template.context_processors.request`` is included in ``context_processors``
 
