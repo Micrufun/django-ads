@@ -17,11 +17,11 @@ Django Ads Management System
     * - share
       - |share-twitter| |github-stars|
 
-.. |django30x-docs| image:: http://img.shields.io/badge/3.0-docs-875A7B.svg?style=flat&colorA=0c4a33
+.. |django30x-docs| image:: http://img.shields.io/badge/3.0-docs-0c4b33.svg?style=flat&colorA=8F8F8F
     :target: https://docs.djangoproject.com/en/3.0/
     :alt: Django 3.0 Documentation
 
-.. |help| image:: http://img.shields.io/badge/master-forum-875A7B.svg?style=flat&colorA=0c4a33
+.. |help| image:: http://img.shields.io/badge/master-forum-0c4b33.svg?style=flat&colorA=8F8F8F
     :target: https://forum.djangoproject.com/
     :alt: Django Forum
 
