@@ -12,6 +12,8 @@ Django Ads Management System
       - | |python37| |django30x| |travis| |coverall|
     * - license
       - |github-license|
+    * - release
+      - |release-pypi|
     * - contribute
       - |github-issues| |github-forks| |github-contributors|
     * - share
@@ -36,6 +38,10 @@ Django Ads Management System
 .. |github-license| image:: https://img.shields.io/github/license/razisayyed/django-ads.svg
     :target: https://github.com/razisayyed/django-ads/blob/master/LICENSE
     :alt: Github License
+
+.. |release-pypi| image:: http://img.shields.io/badge/Release-PyPi-0c4b33.svg?style=flat&colorA=8F8F8F
+    :target: https://pypi.org/project/django-ads/
+    :alt: django-ads Release on PyPi
 
 .. |github-issues| image:: https://img.shields.io/github/issues/razisayyed/django-ads
     :target: https://github.com/razisayyed/django-ads/issues
