@@ -265,7 +265,7 @@ use ``get_ads_count`` in your template to check if any zone has active ads.
 Changelog:
 ----------
 
-1.1.2 (unreleased):
+1.1.2 (unreleased): (Special Thanks to `@macagua <https://github.com/macagua>`_).
 
 - add spanish translation
 - add more improvements about i18n
