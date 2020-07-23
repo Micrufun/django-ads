@@ -25,8 +25,8 @@ Django Ads Management System
     :target: https://forum.djangoproject.com/
     :alt: Django Forum
 
-.. |share-twitter| image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmacagua%2Fopenacademy_demo
-    :target: https://twitter.com/intent/tweet?text=Download%20and%20use%20%27openacademy_demo%27%20package%20for%20doing%20Python%20trainings%20in%20Venezuela%20%F0%9F%87%BB%F0%9F%87%AA%20https://github.com/razisayyed/django-ads
+.. |share-twitter| image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Frazisayyed%2Fdjango-ads
+    :target: https://twitter.com/intent/tweet?text=Download%20and%20use%20%27django-ads%27%20package%20for%20ads%20management%20with%20Python%20via%20Web%20https://github.com/razisayyed/django-ads
     :alt: Share at Twitter
 
 .. |github-contributors| image:: https://img.shields.io/github/contributors/razisayyed/django-ads.svg
