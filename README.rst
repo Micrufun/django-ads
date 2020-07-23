@@ -98,6 +98,13 @@ Configuration:
 
 Add ``'ads.apps.AdsConfig',`` to your ``INSTALLED_APPS``
 
+.. code-block:: python
+
+  INSTALLED_APPS = (
+      ...
+      'ads.apps.AdsConfig',
+  )
+
 Make sure ``django.template.context_processors.request`` is included in ``context_processors``
 
 .. code-block:: python
