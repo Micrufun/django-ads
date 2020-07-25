@@ -13,10 +13,10 @@ $(function() {
             var html = '';
             if(zone.ad !== null) {
                 ad = zone.ad;
-                html = '<a href="'+ad.url+'" target="_blank">';
+                html = '<a href="'+ad.url+'" title="'+ad.title+'" target="_blank">';
                 Object.keys(ad['images']).forEach(key => {
                     var img = ad['images'][key];
-                    html += '<img src="'+img.url+'" class="'+viewports[key]+'"/>';
+                    html += '<img src="'+img.url+'" class="'+viewports[key]+'" alt="'+ad.title+'" />';
                 });
                 html += '</a>';
                 $ad_container.html(html);
@@ -39,12 +39,12 @@ $(function() {
         });
     /*
         <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="{{ google_adsense_client }}"
-        data-ad-slot="{{ zone.google_adsense_slot }}"
-        data-ad-format="{{ zone.google_adsense_format|default:'auto' }}"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-*/
+             style="display:block"
+             data-ad-client="{{ google_adsense_client }}"
+             data-ad-slot="{{ zone.google_adsense_slot }}"
+             data-ad-format="{{ zone.google_adsense_format|default:'auto' }}"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    */
     });
     
 });
