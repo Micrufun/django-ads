@@ -1,5 +1,12 @@
-global-exclude *.pyc
-exclude example *.pyc
+# Text files
 include LICENSE
 include README.rst
+include requirements.txt
+
+# Appication Directories
 recursive-include ads *.html *js *py *po *mo
+
+# Common files
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * empty
